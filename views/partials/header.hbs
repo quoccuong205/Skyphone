@@ -1,6 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="/">SKYPHONE</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -19,21 +20,26 @@
         <a class="nav-link" href="#"></i> Tin tức</a>
       </li>
     </ul>
-    
+
     <div class="btn-group">
-  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Quản lý
-  </button>
-  <div class="dropdown-menu dropdown-menu-right">
-    {{#if login }}
-    <a href="/user/profile" class="btn" role="button">Tài khoản</a>
-    <li role="separator" class="divider"></li>
-    <a href="/user/logout" class="btn" role="button">Đăng xuất</a>
-    {{else}}
-    <a href="/user/signup" class="btn" role="button">Đăng ký</a>
-    <a href="/user/signin" class="btn" role="button">Đăng nhập</a>
-    {{/if}}
-  </div>
-</div>
+      <a href="/shopping-cart/">
+        <i class="fa fa-shopping-cart btn btn-secondary" aria-haspopup="true">Giỏ Hàng
+          <span class="badge">{{session.cart.totalQty}}</span>
+        </i></a>
+      <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">
+        Quản lý
+      </button>
+      <div class="dropdown-menu dropdown-menu-right">
+        {{#if login }}
+        <a href="/user/profile" class="btn" role="button">Tài khoản</a>
+        <li role="separator" class="divider"></li>
+        <a href="/user/logout" class="btn" role="button">Đăng xuất</a>
+        {{else}}
+        <a href="/user/signup" class="btn" role="button">Đăng ký</a>
+        <a href="/user/signin" class="btn" role="button">Đăng nhập</a>
+        {{/if}}
+      </div>
+    </div>
   </div>
 </nav>
