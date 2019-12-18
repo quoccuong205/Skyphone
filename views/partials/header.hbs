@@ -1,36 +1,25 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="/">SKYPHONE</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Trang chủ <span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="/san-pham">Sản phẩm</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Sản phẩm</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Bảng báo giá </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#"></i> Tin tức</a>
+        <a class="nav-link" href="/tin-tuc"></i> Tin tức</a>
       </li>
     </ul>
 
     <div class="btn-group">
-      <a href="/shopping-cart/">
-        <i class="fa fa-shopping-cart btn btn-secondary" aria-haspopup="true">Giỏ Hàng
+      <a href="/shopping-cart/" class="btn btn-secondary" aria-haspopup="true" aria-expanded="false">
+        <i class="fa fa-shopping-cart " aria-haspopup="true"> Giỏ Hàng
           <span class="badge">{{session.cart.totalQty}}</span>
         </i></a>
       <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-        aria-expanded="false">
+        aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i>
         Quản lý
       </button>
-      <div class="dropdown-menu dropdown-menu-right">
+      <div class="dropdown-menu dropdown-menu-right col">
         {{#if login }}
         <a href="/user/profile" class="btn" role="button">Tài khoản</a>
         <li role="separator" class="divider"></li>
