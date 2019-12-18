@@ -14,8 +14,9 @@ var products = [
     title: "Vsmart Live 6GB",
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 3709000,
-    status: "In Stock testing",
-    id: 0
+    status: "In Stock",
+    id: 0,
+    model:'android'
   }),
 
   new Product({
@@ -25,7 +26,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 2149000,
     status: "In Stock",
-    id: 1
+    id: 1,
+    model:'iphone'
   }),
 
   new Product({
@@ -35,7 +37,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 2799000,
     status: "In Stock",
-    id: 2
+    id: 2,
+    model:'iphone'
   }),
 
   new Product({
@@ -45,7 +48,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 19005000,
     status: "In Stock",
-    id: 3
+    id: 3,
+    model:'android'
   }),
 
   new Product({
@@ -55,7 +59,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 21990000,
     status: "In Stock",
-    id: 4
+    id: 4,
+    model:'android'
   }),
 
   new Product({
@@ -65,7 +70,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 4690000,
     status: "In Stock",
-    id: 5
+    id: 5,
+    model:'android'
   }),
 
   new Product({
@@ -75,7 +81,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 15990000,
     status: "In Stock",
-    id: 6
+    id: 6,
+    model:'android'
   }),
 
   new Product({
@@ -85,7 +92,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 27990000,
     status: "In Stock",
-    id: 7
+    id: 7,
+    model:'android'
   }),
   new Product({
     imagePath:
@@ -94,7 +102,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 2149000,
     status: "In Stock",
-    id: 8
+    id: 8,
+    model:'iphone'
   }),
   new Product({
     imagePath:
@@ -103,7 +112,9 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 2149000,
     status: "In Stock",
-    id: 9
+    id: 9,
+    model:'iphone'
+    
   }),
   new Product({
     imagePath:
@@ -112,7 +123,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 2149000,
     status: "In Stock",
-    id: 10
+    id: 10,
+    model:'iphone'
   }),
   new Product({
     imagePath:
@@ -121,7 +133,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 2149000,
     status: "In Stock",
-    id: 11
+    id: 11,
+    model:'iphone'
   }),
   new Product({
     imagePath:
@@ -130,7 +143,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 2149000,
     status: "In Stock",
-    id: 12
+    id: 12,
+    model:'iphone'
   }),
   new Product({
     imagePath:
@@ -139,7 +153,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 2149000,
     status: "In Stock",
-    id: 13
+    id: 13,
+    model:'iphone'
   }),
   new Product({
     imagePath:
@@ -148,7 +163,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 2149000,
     status: "In Stock",
-    id: 14
+    id: 14,
+    model:'iphone'
   }),
   new Product({
     imagePath:
@@ -157,7 +173,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 2149000,
     status: "In Stock",
-    id: 15
+    id: 15,
+    model:'iphone'
   }),
   new Product({
     imagePath:
@@ -166,7 +183,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 2149000,
     status: "In Stock",
-    id: 16
+    id: 16,
+    model:'iphone'
   }),
   new Product({
     imagePath:
@@ -175,7 +193,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 2149000,
     status: "In Stock",
-    id: 17
+    id: 17,
+    model:'iphone'
   }),
   new Product({
     imagePath:
@@ -184,7 +203,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 2149000,
     status: "In Stock",
-    id: 18
+    id: 18,
+    model:'iphone'
   }),
   new Product({
     imagePath:
@@ -193,7 +213,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 2149000,
     status: "In Stock",
-    id: 19
+    id: 19,
+    model:'iphone'
   }),
   new Product({
     imagePath:
@@ -202,7 +223,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 19005000,
     status: "In Stock",
-    id: 20
+    id: 20,
+    model:'android'
   }),
   new Product({
     imagePath:
@@ -211,7 +233,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 19005000,
     status: "In Stock",
-    id: 21
+    id: 21,
+    model:'android'
   }),
   new Product({
     imagePath:
@@ -220,7 +243,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 19005000,
     status: "In Stock",
-    id: 22
+    id: 22,
+    model:'android'
   }),
   new Product({
     imagePath:
@@ -229,7 +253,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 19005000,
     status: "In Stock",
-    id: 23
+    id: 23,
+    model:'android'
   }),
   new Product({
     imagePath:
@@ -238,7 +263,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 19005000,
     status: "In Stock",
-    id: 24
+    id: 24,
+    model:'android'
   }),
   new Product({
     imagePath:
@@ -247,7 +273,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 19005000,
     status: "In Stock",
-    id: 25
+    id: 25,
+    model:'android'
   }),
   new Product({
     imagePath:
@@ -256,7 +283,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 19005000,
     status: "In Stock",
-    id: 26
+    id: 26,
+    model:'android'
   }),
   new Product({
     imagePath:
@@ -265,7 +293,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 19005000,
     status: "In Stock",
-    id: 27
+    id: 27,
+    model:'android'
   }),
   new Product({
     imagePath:
@@ -274,7 +303,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 19005000,
     status: "In Stock",
-    id: 28
+    id: 28,
+    model:'android'
   }),
   new Product({
     imagePath:
@@ -283,7 +313,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 19005000,
     status: "In Stock",
-    id: 29
+    id: 29,
+    model:'android'
   }),
   new Product({
     imagePath:
@@ -292,7 +323,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 19005000,
     status: "In Stock",
-    id: 30
+    id: 30,
+    model:'android'
   }),
   new Product({
     imagePath:
@@ -301,7 +333,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 19005000,
     status: "In Stock",
-    id: 31
+    id: 31,
+    model:'android'
   }),
   new Product({
     imagePath:
@@ -310,7 +343,8 @@ var products = [
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 14800000,
     status: "In Stock",
-    id: 31
+    id: 31,
+    model:'android'
   })
 ];
 
