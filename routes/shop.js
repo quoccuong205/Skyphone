@@ -4,7 +4,6 @@ var Cart = require("../models/cart");
 
 var Product = require("../models/product");
 
-/* GET home page. */
 router.get("/", function(req, res, next) {
   Product.find(function(err, docs) {
     var productChunks = [];
@@ -12,10 +11,12 @@ router.get("/", function(req, res, next) {
     for (var i = 0; i < 8; i += chunkSize) {
       productChunks.push(docs.slice(i, i + chunkSize));
     }
-    res.render("shop/index", { title: "SKYPHONE", products: productChunks });
+    res.render("homepage/index", {
+      title: "SKYPHONE",
+      products: productChunks
+    });
   });
 });
-
 router.get("/add-to-cart/:id", function(req, res, next) {
   var productId = req.params.id;
   var cart = new Cart(req.session.cart ? req.session.cart : {});
@@ -44,7 +45,7 @@ router.get("/shopping-cart", function(req, res, next) {
 
 router.get("/checkout", function(req, res, next) {
   if (!req.session.cart) {
-    return res.redirect("/shopping-cart");
+    return res.redirect("shop/shopping-cart");
   }
   var cart = new Cart(req.session.cart);
   res.render("shop/checkout", { total: cart.totalPrice });

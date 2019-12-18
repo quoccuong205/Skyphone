@@ -14,7 +14,8 @@ var products = [
     title: "Vsmart Live 6GB",
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 3709000,
-    status: "In Stock"
+    status: "In Stock",
+    id: 0
   }),
 
   new Product({
@@ -23,7 +24,8 @@ var products = [
     title: "iPhone 11",
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 2149000,
-    status: "In Stock"
+    status: "In Stock",
+    id: 1
   }),
 
   new Product({
@@ -32,7 +34,8 @@ var products = [
     title: "iPhone XS Max",
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 2799000,
-    status: "In Stock"
+    status: "In Stock",
+    id: 2
   }),
 
   new Product({
@@ -41,7 +44,8 @@ var products = [
     title: "Samsung Galaxy Note 10+",
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 19005000,
-    status: "In Stock"
+    status: "In Stock",
+    id: 3
   }),
 
   new Product({
@@ -50,7 +54,8 @@ var products = [
     title: "ASUS ROG Phone 2 512GB",
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 21990000,
-    status: "In Stock"
+    status: "In Stock",
+    id: 4
   }),
 
   new Product({
@@ -59,7 +64,8 @@ var products = [
     title: "Huawei nova 3i",
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 4690000,
-    status: "In Stock"
+    status: "In Stock",
+    id: 5
   }),
 
   new Product({
@@ -68,7 +74,8 @@ var products = [
     title: "Huawei Mate 20",
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 15990000,
-    status: "In Stock"
+    status: "In Stock",
+    id: 6
   }),
 
   new Product({
@@ -77,7 +84,233 @@ var products = [
     title: "Samsung Galaxy Note 10+",
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 27990000,
-    status: "In Stock"
+    status: "In Stock",
+    id: 7
+  }),
+  new Product({
+    imagePath:
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-purple-select-2019?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1566960958082",
+    title: "iPhone 11",
+    description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    price: 2149000,
+    status: "In Stock",
+    id: 8
+  }),
+  new Product({
+    imagePath:
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-purple-select-2019?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1566960958082",
+    title: "iPhone 11",
+    description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    price: 2149000,
+    status: "In Stock",
+    id: 9
+  }),
+  new Product({
+    imagePath:
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-purple-select-2019?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1566960958082",
+    title: "iPhone 11",
+    description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    price: 2149000,
+    status: "In Stock",
+    id: 10
+  }),
+  new Product({
+    imagePath:
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-purple-select-2019?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1566960958082",
+    title: "iPhone 11",
+    description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    price: 2149000,
+    status: "In Stock",
+    id: 11
+  }),
+  new Product({
+    imagePath:
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-purple-select-2019?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1566960958082",
+    title: "iPhone 11",
+    description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    price: 2149000,
+    status: "In Stock",
+    id: 12
+  }),
+  new Product({
+    imagePath:
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-purple-select-2019?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1566960958082",
+    title: "iPhone 11",
+    description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    price: 2149000,
+    status: "In Stock",
+    id: 13
+  }),
+  new Product({
+    imagePath:
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-purple-select-2019?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1566960958082",
+    title: "iPhone 11",
+    description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    price: 2149000,
+    status: "In Stock",
+    id: 14
+  }),
+  new Product({
+    imagePath:
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-purple-select-2019?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1566960958082",
+    title: "iPhone 11",
+    description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    price: 2149000,
+    status: "In Stock",
+    id: 15
+  }),
+  new Product({
+    imagePath:
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-purple-select-2019?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1566960958082",
+    title: "iPhone 11",
+    description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    price: 2149000,
+    status: "In Stock",
+    id: 16
+  }),
+  new Product({
+    imagePath:
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-purple-select-2019?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1566960958082",
+    title: "iPhone 11",
+    description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    price: 2149000,
+    status: "In Stock",
+    id: 17
+  }),
+  new Product({
+    imagePath:
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-purple-select-2019?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1566960958082",
+    title: "iPhone 11",
+    description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    price: 2149000,
+    status: "In Stock",
+    id: 18
+  }),
+  new Product({
+    imagePath:
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-purple-select-2019?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1566960958082",
+    title: "iPhone 11",
+    description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    price: 2149000,
+    status: "In Stock",
+    id: 19
+  }),
+  new Product({
+    imagePath:
+      "https://cdn.fptshop.com.vn/Uploads/Originals/2019/8/8/637008702547566121_SS-note-10-pl-glow-1-1.png",
+    title: "Samsung Galaxy Note 10+",
+    description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    price: 19005000,
+    status: "In Stock",
+    id: 20
+  }),
+  new Product({
+    imagePath:
+      "https://cdn.fptshop.com.vn/Uploads/Originals/2019/8/8/637008702547566121_SS-note-10-pl-glow-1-1.png",
+    title: "Samsung Galaxy Note 10+",
+    description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    price: 19005000,
+    status: "In Stock",
+    id: 21
+  }),
+  new Product({
+    imagePath:
+      "https://cdn.fptshop.com.vn/Uploads/Originals/2019/8/8/637008702547566121_SS-note-10-pl-glow-1-1.png",
+    title: "Samsung Galaxy Note 10+",
+    description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    price: 19005000,
+    status: "In Stock",
+    id: 22
+  }),
+  new Product({
+    imagePath:
+      "https://cdn.fptshop.com.vn/Uploads/Originals/2019/8/8/637008702547566121_SS-note-10-pl-glow-1-1.png",
+    title: "Samsung Galaxy Note 10+",
+    description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    price: 19005000,
+    status: "In Stock",
+    id: 23
+  }),
+  new Product({
+    imagePath:
+      "https://cdn.fptshop.com.vn/Uploads/Originals/2019/8/8/637008702547566121_SS-note-10-pl-glow-1-1.png",
+    title: "Samsung Galaxy Note 10+",
+    description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    price: 19005000,
+    status: "In Stock",
+    id: 24
+  }),
+  new Product({
+    imagePath:
+      "https://cdn.fptshop.com.vn/Uploads/Originals/2019/8/8/637008702547566121_SS-note-10-pl-glow-1-1.png",
+    title: "Samsung Galaxy Note 10+",
+    description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    price: 19005000,
+    status: "In Stock",
+    id: 25
+  }),
+  new Product({
+    imagePath:
+      "https://cdn.fptshop.com.vn/Uploads/Originals/2019/8/8/637008702547566121_SS-note-10-pl-glow-1-1.png",
+    title: "Samsung Galaxy Note 10+",
+    description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    price: 19005000,
+    status: "In Stock",
+    id: 26
+  }),
+  new Product({
+    imagePath:
+      "https://cdn.fptshop.com.vn/Uploads/Originals/2019/8/8/637008702547566121_SS-note-10-pl-glow-1-1.png",
+    title: "Samsung Galaxy Note 10+",
+    description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    price: 19005000,
+    status: "In Stock",
+    id: 27
+  }),
+  new Product({
+    imagePath:
+      "https://cdn.fptshop.com.vn/Uploads/Originals/2019/8/8/637008702547566121_SS-note-10-pl-glow-1-1.png",
+    title: "Samsung Galaxy Note 10+",
+    description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    price: 19005000,
+    status: "In Stock",
+    id: 28
+  }),
+  new Product({
+    imagePath:
+      "https://cdn.fptshop.com.vn/Uploads/Originals/2019/8/8/637008702547566121_SS-note-10-pl-glow-1-1.png",
+    title: "Samsung Galaxy Note 10+",
+    description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    price: 19005000,
+    status: "In Stock",
+    id: 29
+  }),
+  new Product({
+    imagePath:
+      "https://cdn.fptshop.com.vn/Uploads/Originals/2019/8/8/637008702547566121_SS-note-10-pl-glow-1-1.png",
+    title: "Samsung Galaxy Note 10+",
+    description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    price: 19005000,
+    status: "In Stock",
+    id: 30
+  }),
+  new Product({
+    imagePath:
+      "https://cdn.fptshop.com.vn/Uploads/Originals/2019/8/8/637008702547566121_SS-note-10-pl-glow-1-1.png",
+    title: "Samsung Galaxy Note 10+",
+    description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    price: 19005000,
+    status: "In Stock",
+    id: 31
+  }),
+  new Product({
+    imagePath:
+      "https://cdn.cellphones.com.vn/media/catalog/product/cache/7/image/9df78eab33525d08d6e5fb8d27136e95/i/p/ipad-pro-10in-gold.png",
+    title: "Apple iPad Pro 10.5 Wi-Fi 64GB Chính hãng",
+    description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    price: 14800000,
+    status: "In Stock",
+    id: 31
   })
 ];
 
