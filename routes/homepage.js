@@ -60,7 +60,7 @@ router.get("/collections/may-tinh-bang", function(req, res, next) {
     var chunkSize = 4;
     var docs1= [];
     for (var i = 0; i< docs.length; i++){
-      if (docs[i].model == 'table'){
+      if (docs[i].model == 'tablet'){
         docs1.push(docs[i]);
       }
     }
