@@ -14,7 +14,7 @@ var products = [
     title: "Vsmart Live 6GB",
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 3709000,
-    status: "In Stock",
+    status: "In Stock testing",
     id: 0
   }),
 
