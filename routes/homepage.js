@@ -21,7 +21,7 @@ router.get("/", function(req, res, next) {
 router.get("/collections/iphone-quoc-te", function(req, res, next) {
   Product.find(function(err, docs) {
     var productChunks = [];
-    var chunkSize = 5;
+    var chunkSize = 4;
     var docs1= [];
     for (var i = 0; i< docs.length; i++){
       if (docs[i].model == 'iphone'){

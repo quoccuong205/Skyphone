@@ -11,7 +11,7 @@ var products = [
   new Product({
     imagePath:
       "https://cdn.cellphones.com.vn/media/catalog/product/cache/7/thumbnail/115x/9df78eab33525d08d6e5fb8d27136e95/v/s/vsmart-live-xanh_1.jpg",
-    title: "Vsmart Live 6GB",
+    title: "Vsmart Live 6GB testtttt",
     description: "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
     price: 3709000,
     status: "In Stock",
