@@ -9,7 +9,6 @@ var schema = new Schema({
   status: { type: String, required: true },
   id: { type: Number},
   model: { type: String, required: true }
-
 });
 
 module.exports = mongoose.model("Product", schema);

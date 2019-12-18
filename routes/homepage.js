@@ -17,12 +17,20 @@ router.get("/", function(req, res, next) {
     });
   });
 });
+
 router.get("/collections/iphone-quoc-te", function(req, res, next) {
   Product.find(function(err, docs) {
     var productChunks = [];
-    var chunkSize = 6;
-    for (var i = 8; i < 20; i += chunkSize) {
-      productChunks.push(docs.slice(i, i + chunkSize));
+    var chunkSize = 5;
+    var docs1= [];
+    for (var i = 0; i< docs.length; i++){
+      if (docs[i].model == 'iphone'){
+        docs1.push(docs[i]);
+      }
+    }
+    for (var i = 0; i < docs1.length; i += chunkSize) {
+      
+      productChunks.push(docs1.slice(i, i + chunkSize));
     }
     res.render("homepage/iphonequocte", { products: productChunks });
   });
