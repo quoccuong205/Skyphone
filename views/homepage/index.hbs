@@ -7,22 +7,22 @@
     </div>
 
     <div class="Title">
-      <a href="/collections/iphone-quoc-te" title="iPhone">iPhone</a>
+      <a href="/iphone-quoc-te" title="iPhone">iPhone</a>
     </div>
     <div class="Title">
-      <a href="/collections/dien-thoai-android" title="Android">Android</a>
+      <a href="/dien-thoai-android" title="Android">Android</a>
     </div>
     <div class="Title">
-      <a href="/collections/may-tinh-bang" title="Máy tính bảng">Máy tính bảng</a>
+      <a href="/may-tinh-bang" title="Máy tính bảng">Máy tính bảng</a>
     </div>
     <div class="Title">
-      <a href="/collections/dong-ho" title="Đồng hồ">Đồng hồ</a>
+      <a href="/dong-ho" title="Đồng hồ">Đồng hồ</a>
     </div>
     <div class="Title">
-      <a href="/collections/phu-kien" title="Phụ kiện">Phụ kiện</a>
+      <a href="/phu-kien" title="Phụ kiện">Phụ kiện</a>
     </div>
     <div class="Title">
-      <a href="/collections/loa-va-tai-nghe" title="Loa & tai nghe">Loa & tai nghe</a>
+      <a href="/loa-va-tai-nghe" title="Loa & tai nghe">Loa & tai nghe</a>
     </div>
   </div>
 
@@ -70,6 +70,8 @@
 {{#each products}}
 <div class="row" id="row2">
   {{#each this}}
+  <a href="/{{this.id}}" id="testing">
+
   <div class="col-sm-6 col-md-3 border border-dark">
     <div class="thumbnail">
       <img src="{{ this.imagePath }} " alt="..." class="img-responsive">
@@ -82,6 +84,7 @@
       </div>
     </div>
   </div>
+  </a>
   {{/each}}
 </div>
 {{/each}}

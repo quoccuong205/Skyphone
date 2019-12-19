@@ -3,6 +3,10 @@ var router = express.Router();
 
 var Product = require("../models/product");
 
+var app = express();
+
+
+
 /* GET home page. */
 router.get("/", function(req, res, next) {
   Product.find(function(err, docs) {
@@ -18,7 +22,7 @@ router.get("/", function(req, res, next) {
   });
 });
 
-router.get("/collections/iphone-quoc-te", function(req, res, next) {
+router.get("/iphone-quoc-te", function(req, res, next) {
   Product.find(function(err, docs) {
     var productChunks = [];
     var chunkSize = 4;
@@ -36,7 +40,7 @@ router.get("/collections/iphone-quoc-te", function(req, res, next) {
   });
 });
 
-router.get("/collections/dien-thoai-android", function(req, res, next) {
+router.get("/dien-thoai-android", function(req, res, next) {
   Product.find(function(err, docs) {
     var productChunks = [];
     var chunkSize = 4;
@@ -54,7 +58,7 @@ router.get("/collections/dien-thoai-android", function(req, res, next) {
   });
 });
 
-router.get("/collections/may-tinh-bang", function(req, res, next) {
+router.get("/may-tinh-bang", function(req, res, next) {
   Product.find(function(err, docs) {
     var productChunks = [];
     var chunkSize = 4;
@@ -72,7 +76,7 @@ router.get("/collections/may-tinh-bang", function(req, res, next) {
   });
 });
 
-router.get("/collections/dong-ho", function(req, res, next) {
+router.get("/dong-ho", function(req, res, next) {
   Product.find(function(err, docs) {
     var productChunks = [];
     var chunkSize = 4;
@@ -90,7 +94,7 @@ router.get("/collections/dong-ho", function(req, res, next) {
   });
 });
 
-router.get("/collections/phu-kien", function(req, res, next) {
+router.get("/phu-kien", function(req, res, next) {
   Product.find(function(err, docs) {
     var productChunks = [];
     var chunkSize = 4;
@@ -108,7 +112,7 @@ router.get("/collections/phu-kien", function(req, res, next) {
   });
 });
 
-router.get("/collections/loa-va-tai-nghe", function(req, res, next) {
+router.get("/loa-va-tai-nghe", function(req, res, next) {
   Product.find(function(err, docs) {
     var productChunks = [];
     var chunkSize = 4;
@@ -125,5 +129,31 @@ router.get("/collections/loa-va-tai-nghe", function(req, res, next) {
     res.render("homepage/category", { products: productChunks });
   });
 });
+
+router.get('/:id',function(req, res, next){
+  Product.find(function(err, docs){
+    var x= req.params.id;
+    var docs1= [];
+    for (var i = 0; i< docs.length; i++){
+      if (docs[i].id == x){
+        console.log(x);
+        docs1.push(docs[i]);
+      }
+    }
+    console.log(docs1.length);
+    res.render("homepage/productdetail", {products: docs1});
+  });
+});
+
+
+
+
+
+
+
+
+
+
+
 
 module.exports = router;

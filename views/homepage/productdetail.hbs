@@ -1,0 +1,35 @@
+{{#each products}}
+<main class="container">
+ 
+  <!-- Left Column / Headphones Image -->
+  <div class="left-column">
+    <img src="{{ this.imagePath }} " alt="..." class="img-responsive">
+  </div>
+ 
+ 
+  <!-- Right Column -->
+  <div class="right-column">
+ 
+    <!-- Product Description -->
+    <div class="product-description">
+      <span>{{ this.model }}</span>
+      <h1>{{ this.title }}</h1>
+      <p>{{ this.description }}</p>
+    </div>
+ 
+    <!-- Product Configuration -->
+    <div class="product-configuration">
+ 
+      <!-- Product Color -->
+      
+ 
+    <!-- Product Pricing -->
+    <div class="product-price">
+      <span>{{ this.price }} vnđ</span>
+      <a href="#" class="cart-btn">Add to cart</a>
+    </div>
+  </div>
+</main>
+
+{{/each}}
+<link rel='stylesheet' href='/stylesheets/detailpage.css'>
