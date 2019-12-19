@@ -5,11 +5,8 @@
 .carouselExampleControls {
   max-height: 150px;
 }
-.carousel {
-  margin: auto;
-  width: 600px;
-  height: 500px;
-}
+
+
 
 #menu {
   display: block;
@@ -70,7 +67,22 @@
 
 #bottomRow {
   line-height: 50px;
+  padding-left: 50px;
 }
 .cc-img {
   margin: 0 auto;
 }
+.carousel-item {
+  height: 90vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.itemImage {
+  padding-left: 60px;
+}
+

@@ -1,6 +1,6 @@
 {{#each products}}
 <main class="container">
- 
+ <div class="row">
   <!-- Left Column / Headphones Image -->
   <div class="left-column">
     <img src="{{ this.imagePath }} " alt="..." class="img-responsive">
@@ -26,10 +26,25 @@
     <!-- Product Pricing -->
     <div class="product-price">
       <span>{{ this.price }} vnđ</span>
-      <a href="#" class="cart-btn">Add to cart</a>
+      <a href="/shop/add-to-cart/{{this._id}}" class="cart-btn">Add to cart</a>
     </div>
+  </div>
   </div>
 </main>
 
 {{/each}}
+
+<div>
+  <hr>
+<p>hello
+  
+</p>
+</div>
+
+
+
+
+
 <link rel='stylesheet' href='/stylesheets/detailpage.css'>
+
+

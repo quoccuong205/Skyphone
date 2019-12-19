@@ -1,33 +1,61 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-icon-top navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="/">SKYPHONE</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="/san-pham">Sản phẩm</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Sản phẩm
+        </a>
+        <!-- Here's the magic. Add the .animate and .slide-in classes to your .dropdown-menu and you're all set! -->
+        <div class="dropdown-menu dropdown-menu-left animate slideIn" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/iphone-quoc-te">iPhone</a>
+          <a class="dropdown-item" href="/dien-thoai-android">Android</a>
+          <a class="dropdown-item" href="/may-tinh-bang">Máy tính bảng</a>
+          <a class="dropdown-item" href="/dong-ho">Đồng hồ</a>
+          <a class="dropdown-item" href="/phu-kien">Phụ kiện</a>
+          <a class="dropdown-item" href="/loa-va-tai-nghe">Loa & Tai nghe</a>
+        </div>
       </li>
+
       <li class="nav-item">
         <a class="nav-link" href="/tin-tuc"></i> Tin tức</a>
       </li>
     </ul>
-    <div class="btn-group">
-      <a href="/shop/shopping-cart/" class="btn btn-secondary" aria-haspopup="true" aria-expanded="false">
-        <i class="fa fa-shopping-cart " aria-haspopup="true"> Giỏ Hàng
-          <span class="badge">{{session.cart.totalQty}}</span>
-        </i></a>
-      <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-        aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i>
-        Quản lý
-      </button>
-      <div class="dropdown-menu dropdown-menu-right col">
-        {{#if login }}
-        <a href="/user/profile" class="btn" role="button">Tài khoản</a>
-        <li role="separator" class="divider"></li>
-        <a href="/user/logout" class="btn" role="button">Đăng xuất</a>
-        {{else}}
-        <a href="/user/signup" class="btn" role="button">Đăng ký</a>
-        <a href="/user/signin" class="btn" role="button">Đăng nhập</a>
-        {{/if}}
-      </div>
-    </div>
+
+    <ul class="navbar-nav ">
+
+      <li class="nav-item">
+        <a class="nav-link" href="/shop/shopping-cart/">
+          <i class="fa fa-shopping-cart">
+          </i>
+          Giỏ Hàng
+          <span class="badge badge-info">{{session.cart.totalQty}}</span>
+        </a>
+
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Quản lý
+        </a>
+        <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
+          {{#if login }}
+          <a href="/user/profile" class="btn" role="button">Tài khoản</a>
+      <li role="separator" class="divider"></li>
+      <a href="/user/logout" class="btn" role="button">Đăng xuất</a>
+      {{else}}
+      <a href="/user/signup" class="btn" role="button">Đăng ký</a>
+      <a href="/user/signin" class="btn" role="button">Đăng nhập</a>
+      {{/if}}
+  </div>
+  </li>
+  </ul>
   </div>
 </nav>

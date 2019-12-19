@@ -8,7 +8,9 @@ var schema = new Schema({
   price: { type: Number, required: true },
   status: { type: String, required: true },
   id: { type: Number},
-  model: { type: String, required: true }
+  model: { type: String, required: true },
+  detailDesc: { type: String, required: false },
+  descPara:{ type: String, required: false }
 });
 
 module.exports = mongoose.model("Product", schema);
