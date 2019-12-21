@@ -10,7 +10,7 @@ var passport = require("passport");
 var flash = require("connect-flash");
 var validator = require("express-validator");
 var MongoStore = require("connect-mongo")(session);
-
+var bodyParser = require("body-parser");
 var homepageRouter = require("./routes/homepage");
 var shopRouter = require("./routes/shop");
 var userRoutes = require("./routes/user");
@@ -27,6 +27,7 @@ require("./config/passport");
 app.engine(".hbs", expressHbs({ defaultLayout: "layout", extname: ".hbs" }));
 app.set("view engine", ".hbs");
 
+app.use(bodyParser.json());
 app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));

@@ -1,7 +1,7 @@
 var express = require("express");
 var router = express.Router();
 var Cart = require("../models/cart");
-
+var Order = require("../models/order");
 var Product = require("../models/product");
 
 router.get("/", function(req, res, next) {
@@ -49,6 +49,25 @@ router.get("/checkout", function(req, res, next) {
   }
   var cart = new Cart(req.session.cart);
   res.render("shop/checkout", { total: cart.totalPrice });
+});
+
+router.post("/checkout", function(req, res, next) {
+  if (!req.session.cart) {
+    return res.redirect("shop/shopping-cart");
+  }
+  var cart = new Cart(req.session.cart);
+  var order = new Order({
+    user: req.user,
+    cart: cart,
+    address: req.body.address,
+    name: req.body.name,
+    phonenumber: req.body.phonenumber
+  });
+  order.save(function(err, result) {
+    req.flash("success", "Successfully bought product!");
+    req.session.cart = null;
+    res.redirect("/");
+  });
 });
 
 module.exports = router;
