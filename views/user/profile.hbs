@@ -1,19 +1,22 @@
-<div class="container">
-    <h1>User Profile</h1>
-    <div class="row">
-        <div class="col-md-6 img">
-            <img src="https://cdn.patchcdn.com/assets/layout/contribute/user-default.png" alt="">
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <h1>User Profile</h1>
+        <hr>
+        <h2>My Orders</h2>
+        {{#each orders}}
+        <div class="cart">
+            <div class="cart-body">
+                <ul class="list-group">
+                    {{#each this.items}}
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <span class="badge badge-primary badge-pill">{{ this.price }}</span>
+                        {{this.item.title}} | {{ this.qty }} Units
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>
+            <div class="cart-footer"><strong>Total Price: ${{ this.cart.totalPrice }}</strong></div>
         </div>
-        <div class="col-md-6 details">
-            <blockquote>
-                <h3>NO NO</h3>
-                <small><cite title="Source Title">address<i class="icon-map-marker"></i></cite></small>
-            </blockquote>
-            <p>
-                fionagallager@shameless.com <br>
-                www.bootsnipp.com <br>
-                June 18, 1990
-            </p>
-        </div>
+        {{/each}}
     </div>
 </div>
