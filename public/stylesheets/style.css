@@ -6,6 +6,8 @@
   max-height: 150px;
 }
 
+
+
 #menu {
   display: block;
   width: 300px;
@@ -87,4 +89,4 @@
 .hidden {
   display: none;
   visibility: hidden;
-}
+} 
