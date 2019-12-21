@@ -42,7 +42,7 @@ router.get("/signup", function(req, res, next) {
 router.post(
   "/signup",
   passport.authenticate("local.signup", {
-    successRedirect: "/user/profile",
+    successRedirect: "/",
     failureRedirect: "/user/signup",
     failureFlash: true
   })
@@ -60,7 +60,7 @@ router.get("/signin", function(req, res, next) {
 router.post(
   "/signin",
   passport.authenticate("local.signin", {
-    successRedirect: "/user/profile",
+    successRedirect: "/",
     failureRedirect: "/user/signin",
     failureFlash: true
   })
