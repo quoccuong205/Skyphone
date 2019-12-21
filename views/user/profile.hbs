@@ -1,6 +1,8 @@
 <div class="row">
     <div class="col-md-8 col-md-offset-2">
-        <h2>My Orders</h2>
+        <br>
+        <h2 class= "Order">My Orders</h2>
+        <br><br><br>
         {{#each orders}}
         <div class="cart">
             <div class="cart-body">
@@ -13,10 +15,8 @@
                     {{/each}}
                 </ul>
             </div>
-            
-            <div class="cart-footer"><strong>Total Price: ${{ this.cart.totalPrice }}</strong></div>
+            <div class="cart-footer" style="text-align: right;"><strong>Total Price: ${{ this.cart.totalPrice }}</strong></div>
             <br> 
-            <br>
         </div>
         {{/each}}
     </div>
