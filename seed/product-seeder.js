@@ -397,6 +397,215 @@ var products = [
       36,
     model: "watch",
   }),
+
+  new Product({
+    imagePath: "https://iremax.vn/wp-content/uploads/2019/04/op-dien-thoai-rm-1613-remax-12.jpg",
+    title:"Case for Iphone XS MAX",
+    description: "Our clear iPhone Xs Max cases are designed for the absolute minimalists. These clear iPhone cases are here to keep your iPhone fresh and authentic along with optimal protection. No FOMO, our clear iPhone cases are available in all case types.",
+    price: 10 ,
+    status: "InStock",
+    id: 37,
+    model: 'accessories'
+    }),
+    
+  new Product({
+    imagePath: "http://phukiengalaxy.com.vn/wp-content/uploads/2019/05/%E1%BB%91p-l%C6%B0ng-A70-gi%E1%BA%A3-da-gi%C3%A1-r%E1%BA%BB.jpg",
+    title:"Leather Case",
+    description: "Meet our leather iPhone Xs Max cases. The leather iPhone Xs Max case provides a luxurious look and offers extra resistant grip. Personalise your leather iPhone Xs Max case with initials to make it more luxe.",
+    price: 17  ,
+    status: "InStock",
+    id: 38,
+    model: 'accessories'
+    }),
+
+  new Product({
+    imagePath: "https://ae01.alicdn.com/kf/Hd9efa41837534b84ab6d4428c4a5db27k/Cho-Iphone-11-Pro-Max-D-Quang-Neon-C-t-L-ng-L-p-L-nh.jpg_q50.jpg",
+    title:"Neon Case",
+    description: "Our iPhone Xs Max case glows in the dark and is available in the four fun color combos. FYI the neon sand liquid phone case bumper is made of shockproof TPU, which provides optimal protection to your iPhone Xs Max.",
+    price: 7 ,
+    status: "InStock",
+    id: 39,
+    model: 'accessories'
+    }),
+
+  new Product({
+    imagePath: "https://i.pinimg.com/originals/8c/21/c2/8c21c29719c5628e5ee9a04175150c01.jpg",
+    title:"Prints Case",
+    description: "Looking for the iPhone Xs Max case to show off your style? Choose from our signature prints collection and match with your OOTD.",
+    price: 10 ,
+    status: "InStock",
+    id: 40,
+    model: 'accessories'
+    }),
+
+  new Product({
+    imagePath: "https://nettacase.com/image/5aec04e951046d10a56ae311/big",
+    title:"Glitter case ",
+    description: "Time to shake things up! Our well-loved liquid glitter iPhone Xs Max cases feature floating, sparkly liquid glitter pieces for a dreamy, snowglobe-like effect. Made of non-toxic mineral oil and materials, all liquid glitter iPhone Xs Max cases are certified for 100% quality + safety. Shine on.",
+    price: 9 ,
+    status: "InStock",
+    id: 41,
+    model: 'accessories'
+    }),
+
+  new Product({
+    imagePath: "http://soloyo.vn/blog/wp-content/uploads/2018/12/%E1%BB%91p-ch%E1%BB%AF-k%C3%BD-300x300.jpg",
+    title:"The Essential Case",
+    description: "The Essential Case is crafted with the toughest materials offering 360 degrees of protection with drop proof materials and an extra layer of shock absorption. Trendy designs deserve the custom treatment, so add your name, initials or favorite word to make this luxury print your perfect personalized accessory.",
+    price: 13 ,
+    status: "InStock",
+    id: 42,
+    model: 'accessories'
+    }),
+
+  new Product({
+    imagePath: "https://cdn-image02.casetify.com/img/system_item/16000399/~v1/slide_1.jpg",
+    title:"USB-C Lightning Cable",
+    description: "CASETiFY's connectors are ultra strong, for a hassle-free experience. With 1.2M of length, you can charge your baby up without the fear of a tangled mess, supporting 3A fast charging! BTW, our USB-C USB cables are crafted with high quality metal connectors, offering MFi standard lightning capabilities. Yeah, we're that good.",
+    price: 13 ,
+    status: "InStock",
+    id: 43,
+    model: 'accessories'
+    }),
+
+  new Product({
+    imagePath: "https://cdn-image02.casetify.com/usr/16223/4396223/~v7/6496290_wireless-charging-pad_16000024.png.560x560-w.m80.jpg",
+    title:"Wireless Charging pad",
+    description: "Introducing the best addition to your tech gadget collection; our signature Saffiano Wireless Charging Pad. As convenience goes, our wireless charging pad can't be beat. You simply drop your phone onto the wireless charging pad and walk away. Gone is the headache of managing charging cables that inevitably break or get lost. BTW, it's compatible with all phones and devices like Apple AirPods 2 that support wireless charging.",
+    price: 35 ,
+    status: "InStock",
+    id: 44,
+    model: 'accessories'
+    }),
+
+  new Product({
+    imagePath: "https://cdn-stamplib.casetify.com/cms/image/e759c83bae27a1970f44de5c3789ee9b.jpg",
+    title:"Tempered Glass",
+    description: "Only 0.33mm, the ultra-thin iPhone 11 Pro / Xs / X tempered glass screen protector enables precise touchscreen sensitivity without compromising protection. Its polished, scratch-resistant surface helps reduce the chances of your screen breaking or cracking. ",
+    price: 15 ,
+    status: "InStock",
+    id: 45,
+    model: 'accessories',
+    }),
+
+  new Product({
+    imagePath: "https://cdn-image02.casetify.com/usr/9516/2769516/~v7/6561366_iring_80021.png.560x560-w.m80.jpg",
+    title:"Ring Holder",
+    description: "he phone ring is offered in rose gold and black and it sticks securely on the back of any CASETiFY phone cases. Now you can stay worry-free when you go around holding your phone with one hand. Texting, taking your selfies and IG stories have never been easier with CASETiFY phone ring. Serving as literally an phone grip holder, we used a material that is smooth and sleek, which guarantees a comfy all day wear.",
+    price: 5 ,
+    status: "InStock",
+    id: 46,
+    model: 'accessories'
+    }),  
+
+  new Product({
+    imagePath: "https://nytshop.com/images/thumbs/001/0013152_tai-nghe-steelseries-siberia-200-white_600.jpeg",
+    title: "SteelSeries Siberia 200 White",
+    description: "",
+    price: 99.99,
+    status: "In Stock",
+    id: 60,
+    model: 'speaker'
+  }),
+  new Product({
+    imagePath: "https://tainghe.com.vn/media/news/2604_XuanVuAudio-zx310-ap-6.jpg",
+    title: "Sony ZX310AP Black",
+    description:   "From Sony - Light weight - Flexible design",
+    price: 49.99,
+    status: "In Stock",
+    id: 61,
+    model: 'speaker'
+  }),
+  new Product({
+    imagePath: "https://salt.tikicdn.com/cache/550x550/media/catalog/product/h/d/hd-559-1.u2470.d20161227.t113312.526099.jpg",
+    title: "Sennheiser HD 559",
+    description:   "From Sennheiser - Comfortable - Open design",
+    price: 149.99,
+    status: "In Stock",
+    id: 62,
+    model: 'speaker'
+  }),
+  new Product({
+    imagePath: "https://images-na.ssl-images-amazon.com/images/I/41OP927d54L.jpg",
+    title: "Sony MDR-XB550AP Red",
+    description:   "From Sony - Comfortable - Fashion design - Light weight",
+    price: 49.99,
+    status: "In Stock",
+    id: 63,
+    model: 'speaker'
+  }),
+  new Product({
+    imagePath: "https://images-na.ssl-images-amazon.com/images/I/51JICE%2BqK9L._AC_SL1000_.jpg",
+    title: "COWIN SE7",
+    description:   "Professional Active Noise Cancelling (ANC) Technology - Comfortable - Fashion design - Amazing Sound with AptX Hi-Fi Technology - High-quality Built-in Microphone and Bluetooth 5.0 ",
+    price: 109.99,
+    status: "In Stock",
+    id: 64,
+    model: 'speaker'
+  }),
+  new Product({
+    imagePath: "https://images-na.ssl-images-amazon.com/images/I/61oEU8lUE9L._AC_SL1001_.jpg",
+    title: "COWIN E7",
+    description:   "Professional Active Noise Cancelling Technology - Comfortable - Proprietary 40mm Large-aperture Drivers. Deep, accurate bass response - Amazing Sound with AptX Hi-Fi Technology - High-quality Built-in Microphone and NFC Technology ",
+    price: 59.99,
+    status: "In Stock",
+    id: 65,
+    model: 'speaker'
+  }),
+  new Product({
+    imagePath: "https://images-na.ssl-images-amazon.com/images/I/61S3vMe2vgL._AC_SL1280_.jpg",
+    title: "Mpow 059",
+    description:   "IMPRESSIVE SOUND QUALITY IS THE ULTIMATE GOAL - BUILT TO STAY COMFORTABLE - NEVER POWER OFF, BOTH WIRELESS & WIRED - FOLDABLE DESIGN WITH A PORTABLE BAG & GENTLE REMINDER ",
+    price: 36.99,
+    status: "In Stock",
+    id: 66,
+    model: 'speaker'
+  }),
+  new Product({
+    imagePath: "https://images-na.ssl-images-amazon.com/images/I/71SUYBmMsRL._AC_SL1500_.jpg",
+    title: "Vogek On Ear Headphones",
+    description:   "40 mm driver units of the on ear headphones deliver full, balanced sound - Designed with padded headband, cushioned & pressure-relieving ear pads that rest comfortably on your ears - The perfect portable on ear headphones offer sleek style and an excellent on-the-go choice for keeping you in sync with sound that inspires - In-line microphone for hands-free phone calling ",
+    price: 16.99,
+    status: "In Stock",
+    id: 67,
+    model: 'speaker'
+  }),
+  new Product({
+    imagePath: "https://images-na.ssl-images-amazon.com/images/I/71SUYBmMsRL._AC_SL1500_.jpg",
+    title: "Elecder i39",
+    description:   "EXCELLENT SOUND - DURABLE & NOT TANGLE - Built in Microphone - ADJUSTABLE & ESAY TO CARRY - PRPTECTION ",
+    price: 11.99,
+    status: "In Stock",
+    id: 68,
+    model: 'speaker'
+  }),
+  new Product({
+    imagePath: "https://images-na.ssl-images-amazon.com/images/I/71qNnPAiAAL._AC_SL1500_.jpg",
+    title: "PeohZarr On-Ear Headphones",
+    description:   "Immerse yourself into the beat - Designed for maximum comfort - Durable and folding design - Easy in-line control with microphone -HAPPY CUSTOMERS ",
+    price: 19.99,
+    status: "In Stock",
+    id: 69,
+    model: 'speaker'
+  }),
+  new Product({
+    imagePath: "https://images-na.ssl-images-amazon.com/images/I/61JxBr0UreL._AC_SL1200_.jpg",
+    title: "Sony MDRZX110",
+    description:   "30 millimeter drivers for rich, full frequency response - Lightweight and comfortable on ear design - Swivel design for portability - 47 ¼ inch (1.2 meter) tangle free, Y type cord",
+    price: 29.99,
+    status: "In Stock",
+    id: 70,
+    model: 'speaker'
+  }),
+  new Product({
+    imagePath: "https://images-na.ssl-images-amazon.com/images/I/715zHo%2Bm1tL._AC_SL1500_.jpg",
+    title: "AILIHEN C8",
+    description:   "Collapsible feature - Hands-free talking and volume control - Adjustable hinge - Noise isolation - Widely compatible",
+    price: 19.99,
+    status: "In Stock",
+    id: 71,
+    model: 'speaker'
+  }),
   
 ];
 
