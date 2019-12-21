@@ -2,12 +2,14 @@ var express = require("express");
 var router = express.Router();
 var csrf = require("csurf");
 var passport = require("passport");
-
+var User = require("../models/user");
 var csrfProtection = csrf();
 router.use(csrfProtection);
 
-router.get("/profile", isLoggedIn, function(req, res, next) {
-  res.render("user/profile");
+router.get("/profile", isLoggedIn, async function(req, res, next) {
+  var user = new User(req.user);
+  await user.save();
+  res.render("user/profile", { user });
 });
 
 router.get("/logout", isLoggedIn, function(req, res, next) {
