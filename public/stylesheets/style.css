@@ -6,8 +6,6 @@
   max-height: 150px;
 }
 
-
-
 #menu {
   display: block;
   width: 300px;
@@ -86,8 +84,7 @@
   padding-left: 60px;
 }
 
-.Order {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: center;
-  font-size: 60px;
+.hidden {
+  display: none;
+  visibility: hidden;
 }
