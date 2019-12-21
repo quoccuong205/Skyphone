@@ -2,14 +2,23 @@ var express = require("express");
 var router = express.Router();
 var csrf = require("csurf");
 var passport = require("passport");
-var User = require("../models/user");
 var csrfProtection = csrf();
 router.use(csrfProtection);
+var Order = require("../models/order");
+var Cart = require("../models/cart");
 
 router.get("/profile", isLoggedIn, async function(req, res, next) {
-  var user = new User(req.user);
-  await user.save();
-  res.render("user/profile", { user });
+  Order.find({ user: req.user }, function(err, orders) {
+    if (err) {
+      return res.write("Error!");
+    }
+    var cart;
+    orders.forEach(function(order) {
+      cart = new Cart(order.cart);
+      order.items = cart.generateArray();
+    });
+    res.render("user/profile", { orders: orders });
+  });
 });
 
 router.get("/logout", isLoggedIn, function(req, res, next) {
