@@ -97,3 +97,14 @@
   text-align: center;
   font-size: 60px;
 }
+
+.btn-ultra-voilet {
+  background: #654ea3;  
+  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3); 
+  background: linear-gradient(to right, #eaafc8, #654ea3); 
+  color: #fff;
+  border: 3px solid white;
+}
+.btn-rounded {
+  border-radius: 35px;
+}

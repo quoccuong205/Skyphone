@@ -15,7 +15,6 @@ var products = [
     description: "iPhone XR International - Productform : RankA - Backed up to 12 months warranty with a premium package",
     price: 749,
     status: "In Stock",
-    id: 0,
     model: 'iphone'
   }),
   new Product({
@@ -24,7 +23,6 @@ var products = [
     description: "iPhone XR Max International - Productform : RankA - Backed up to 12 months warranty with a premium package",
     price: 1099,
     status: "InStock",
-    id: 1,
     model: "iphone",
   }),
   new Product({
@@ -34,7 +32,6 @@ var products = [
     price:
       999,
     status: "InStock",
-    id: 2,
     model: "iphone",
   }),
   new Product({
@@ -43,7 +40,6 @@ var products = [
     description: "iPhone 11 International - Productform : RankA - Backed up to 12 months warranty with a premium package",
     price: 709,
     status: "InStock",
-    id: 3,
     model: "iphone",
   }),
   new Product({
@@ -52,7 +48,6 @@ var products = [
     description: "Mainboard 12 months.Power, touchscreen and 3-month camera.30-day test case",
     price: 949,
     status: "InStock",
-    id: 4,
     model: "android",
   }),
   new Product({
@@ -61,7 +56,6 @@ var products = [
     description: "Fullbox,body,box,charger,cable.Support installing romTV + back up to 12 month warranty",
     price: 880,
     status: "InStock",
-    id: 5,
     model: "android",
   }),
   new Product({
@@ -70,7 +64,6 @@ var products = [
     description: "Fullbox,body,box + Backed up to 12 months warranty with a premium package",
     price: 179,
     status: "InStock",
-    id: 21,
     model: "android",
   }),
   new Product({
@@ -79,7 +72,6 @@ var products = [
     description: "Fullbox,body,box + Backed up to 12 months warranty with a premium package",
     price: 49,
     status: "InStock",
-    id: 6,
     model: "android",
   }),
   new Product({
@@ -89,7 +81,6 @@ var products = [
     price:
       999,
     status: "InStock",
-    id: 7,
     model: "tablet",
   }),
   new Product({
@@ -98,7 +89,6 @@ var products = [
     description: "iPhone X Plus International - Product form: Rank A - Backed up to 12 months warranty with a premium package",
     price: 699,
     status: "InStock",
-    id: 9,
     model: "iphone",
   }),
   new Product({
@@ -107,7 +97,7 @@ var products = [
     description: "iPhone 8 Plus International - Product form: Rank A - Backed up to 12 months warranty with a premium package",
     price: 659,
     status: "InStock",
-    id: 8,
+   
     model: "iphone",
   }),
   new Product({
@@ -116,7 +106,7 @@ var products = [
     description: "iPhone 7 PlusInternational - Product form: Rank A - Backed up to 12 months warranty with a premium package",
     price: 599,
     status: "InStock",
-    id: 11,
+    
     model: "iphone",
   }),
   new Product({
@@ -125,7 +115,7 @@ var products = [
     description: "iPhone 6s Plus International - Product form: Rank A - Backed up to 12 months warranty with a premium package",
     price: 549,
     status: "InStock",
-    id: 22,
+    
     model: "iphone",
   }),
   new Product({
@@ -134,7 +124,7 @@ var products = [
     description: "iPhone 7 International - Product form: Rank A - Backed up to 12 months warranty with a premium package",
     price: 569,
     status: "InStock",
-    id: 12,
+  
     model: "iphone",
   }),
   new Product({
@@ -143,7 +133,7 @@ var products = [
     description: "iPhone 6 International - Product form: Rank A - Backed up to 12 months warranty with a premium package",
     price: 399,
     status: "InStock",
-    id: 13,
+   
     model: "iphone",
   }),
   new Product({
@@ -152,8 +142,7 @@ var products = [
     description: "iPhone 5 SE International - Product form: Rank A - Backed up to 12 months warranty with a premium package",
     price: 299,
     status: "InStock",
-    id:
-      14,
+    
     model: "iphone",
   }),
   new Product({
@@ -162,7 +151,7 @@ var products = [
     description: "Runs on Android v8.1(Oreo) operating system (Freeship + 36 month warranty)",
     price: 185,
     status: "InStock",
-    id: 15,
+    
     model: "android",
   }),
   new Product({
@@ -172,8 +161,7 @@ var products = [
     price:
       2000,
     status: "InStock",
-    id:
-      18,
+    
     model: "android",
   }),
   new Product({
@@ -183,8 +171,7 @@ var products = [
     price:
       990,
     status: "InStock",
-    id:
-      19,
+    
     model: "android",
   }),
   new Product({
@@ -195,8 +182,7 @@ var products = [
       399,
 
     status: "InStock",
-    id:
-      17,
+   
 
     model: "android",
   }),
@@ -207,7 +193,7 @@ var products = [
     price:
       219,
     status: "InStock",
-    id:16,
+ 
     model: "android",
   }),
   new Product({
@@ -219,8 +205,7 @@ var products = [
       899,
 
     status: "InStock",
-    id:
-      20,
+   
 
     model: "tablet",
   }),
@@ -232,8 +217,7 @@ var products = [
       899,
 
     status: "InStock",
-    id:
-      23,
+    
     model: "tablet",
   }),
   new Product({
@@ -244,8 +228,7 @@ var products = [
       699,
     
     status: "InStock",
-    id:
-      24,
+   
     
     model: "tablet",
   }),
@@ -257,8 +240,7 @@ var products = [
       499,
     
     status: "InStock",
-    id:
-      25,
+ 
     
     model: "tablet",
   }),
@@ -270,9 +252,7 @@ var products = [
       359,
     
     status: "InStock",
-    id:
-      26,
-    
+  
     model: "tablet",
   }),
   new Product({
@@ -283,8 +263,7 @@ var products = [
       329,
     
     status: "InStock",
-    id:
-      27,
+  
     
     model: "tablet",
   }),
@@ -296,8 +275,7 @@ var products = [
       299,
     
     status: "InStock",
-    id:
-      28,
+  
     
     model: "tablet",
   }),
@@ -309,8 +287,7 @@ var products = [
       205,
     
     status: "InStock",
-    id:
-      29,
+   
     
     model: "tablet",
   }),
@@ -321,8 +298,7 @@ var products = [
     price:
       159,
     status: "InStock",
-    id:
-      30,
+   
     model: "tablet",
   }),
   new Product({    
@@ -333,8 +309,7 @@ var products = [
       120,
     
     status: "InStock",
-    id:
-      31,
+   
     
     model: "tablet",
   }),
@@ -346,8 +321,7 @@ var products = [
       520,
     
     status: "InStock",
-    id:
-      32,
+ 
     
     model: "watch",
   }),
@@ -359,8 +333,7 @@ var products = [
       240,
     
     status: "InStock",
-    id:
-      33,
+  
     
     model: "watch",
   }),
@@ -371,8 +344,7 @@ var products = [
     price:
       200,
     status: "InStock",
-    id:
-      34,
+   
     model: "watch",
   }),
   new Product({
@@ -382,8 +354,7 @@ var products = [
     price:
       100,
     status: "InStock",
-    id:
-      35,
+    
     model: "watch",
   }),
   new Product({
@@ -393,8 +364,7 @@ var products = [
     price:
       50,
     status: "InStock",
-    id:
-      36,
+
     model: "watch",
   }),
 
@@ -404,7 +374,7 @@ var products = [
     description: "Our clear iPhone Xs Max cases are designed for the absolute minimalists. These clear iPhone cases are here to keep your iPhone fresh and authentic along with optimal protection. No FOMO, our clear iPhone cases are available in all case types.",
     price: 10 ,
     status: "InStock",
-    id: 37,
+    
     model: 'accessories'
     }),
     
@@ -414,7 +384,7 @@ var products = [
     description: "Meet our leather iPhone Xs Max cases. The leather iPhone Xs Max case provides a luxurious look and offers extra resistant grip. Personalise your leather iPhone Xs Max case with initials to make it more luxe.",
     price: 17  ,
     status: "InStock",
-    id: 38,
+ 
     model: 'accessories'
     }),
 
@@ -424,7 +394,7 @@ var products = [
     description: "Our iPhone Xs Max case glows in the dark and is available in the four fun color combos. FYI the neon sand liquid phone case bumper is made of shockproof TPU, which provides optimal protection to your iPhone Xs Max.",
     price: 7 ,
     status: "InStock",
-    id: 39,
+ 
     model: 'accessories'
     }),
 
@@ -434,7 +404,7 @@ var products = [
     description: "Looking for the iPhone Xs Max case to show off your style? Choose from our signature prints collection and match with your OOTD.",
     price: 10 ,
     status: "InStock",
-    id: 40,
+  
     model: 'accessories'
     }),
 
@@ -444,7 +414,7 @@ var products = [
     description: "Time to shake things up! Our well-loved liquid glitter iPhone Xs Max cases feature floating, sparkly liquid glitter pieces for a dreamy, snowglobe-like effect. Made of non-toxic mineral oil and materials, all liquid glitter iPhone Xs Max cases are certified for 100% quality + safety. Shine on.",
     price: 9 ,
     status: "InStock",
-    id: 41,
+   
     model: 'accessories'
     }),
 
@@ -454,7 +424,7 @@ var products = [
     description: "The Essential Case is crafted with the toughest materials offering 360 degrees of protection with drop proof materials and an extra layer of shock absorption. Trendy designs deserve the custom treatment, so add your name, initials or favorite word to make this luxury print your perfect personalized accessory.",
     price: 13 ,
     status: "InStock",
-    id: 42,
+   
     model: 'accessories'
     }),
 
@@ -464,7 +434,7 @@ var products = [
     description: "CASETiFY's connectors are ultra strong, for a hassle-free experience. With 1.2M of length, you can charge your baby up without the fear of a tangled mess, supporting 3A fast charging! BTW, our USB-C USB cables are crafted with high quality metal connectors, offering MFi standard lightning capabilities. Yeah, we're that good.",
     price: 13 ,
     status: "InStock",
-    id: 43,
+    
     model: 'accessories'
     }),
 
@@ -474,7 +444,7 @@ var products = [
     description: "Introducing the best addition to your tech gadget collection; our signature Saffiano Wireless Charging Pad. As convenience goes, our wireless charging pad can't be beat. You simply drop your phone onto the wireless charging pad and walk away. Gone is the headache of managing charging cables that inevitably break or get lost. BTW, it's compatible with all phones and devices like Apple AirPods 2 that support wireless charging.",
     price: 35 ,
     status: "InStock",
-    id: 44,
+  
     model: 'accessories'
     }),
 
@@ -484,7 +454,7 @@ var products = [
     description: "Only 0.33mm, the ultra-thin iPhone 11 Pro / Xs / X tempered glass screen protector enables precise touchscreen sensitivity without compromising protection. Its polished, scratch-resistant surface helps reduce the chances of your screen breaking or cracking. ",
     price: 15 ,
     status: "InStock",
-    id: 45,
+    
     model: 'accessories',
     }),
 
@@ -494,7 +464,7 @@ var products = [
     description: "he phone ring is offered in rose gold and black and it sticks securely on the back of any CASETiFY phone cases. Now you can stay worry-free when you go around holding your phone with one hand. Texting, taking your selfies and IG stories have never been easier with CASETiFY phone ring. Serving as literally an phone grip holder, we used a material that is smooth and sleek, which guarantees a comfy all day wear.",
     price: 5 ,
     status: "InStock",
-    id: 46,
+   
     model: 'accessories'
     }),  
 
@@ -504,7 +474,7 @@ var products = [
     description: "",
     price: 99.99,
     status: "In Stock",
-    id: 60,
+   
     model: 'speaker'
   }),
   new Product({
@@ -513,7 +483,7 @@ var products = [
     description:   "From Sony - Light weight - Flexible design",
     price: 49.99,
     status: "In Stock",
-    id: 61,
+   
     model: 'speaker'
   }),
   new Product({
@@ -522,7 +492,7 @@ var products = [
     description:   "From Sennheiser - Comfortable - Open design",
     price: 149.99,
     status: "In Stock",
-    id: 62,
+  
     model: 'speaker'
   }),
   new Product({
@@ -531,7 +501,7 @@ var products = [
     description:   "From Sony - Comfortable - Fashion design - Light weight",
     price: 49.99,
     status: "In Stock",
-    id: 63,
+
     model: 'speaker'
   }),
   new Product({
@@ -540,7 +510,7 @@ var products = [
     description:   "Professional Active Noise Cancelling (ANC) Technology - Comfortable - Fashion design - Amazing Sound with AptX Hi-Fi Technology - High-quality Built-in Microphone and Bluetooth 5.0 ",
     price: 109.99,
     status: "In Stock",
-    id: 64,
+ 
     model: 'speaker'
   }),
   new Product({
@@ -549,7 +519,7 @@ var products = [
     description:   "Professional Active Noise Cancelling Technology - Comfortable - Proprietary 40mm Large-aperture Drivers. Deep, accurate bass response - Amazing Sound with AptX Hi-Fi Technology - High-quality Built-in Microphone and NFC Technology ",
     price: 59.99,
     status: "In Stock",
-    id: 65,
+ 
     model: 'speaker'
   }),
   new Product({
@@ -558,7 +528,7 @@ var products = [
     description:   "IMPRESSIVE SOUND QUALITY IS THE ULTIMATE GOAL - BUILT TO STAY COMFORTABLE - NEVER POWER OFF, BOTH WIRELESS & WIRED - FOLDABLE DESIGN WITH A PORTABLE BAG & GENTLE REMINDER ",
     price: 36.99,
     status: "In Stock",
-    id: 66,
+
     model: 'speaker'
   }),
   new Product({
@@ -567,7 +537,7 @@ var products = [
     description:   "40 mm driver units of the on ear headphones deliver full, balanced sound - Designed with padded headband, cushioned & pressure-relieving ear pads that rest comfortably on your ears - The perfect portable on ear headphones offer sleek style and an excellent on-the-go choice for keeping you in sync with sound that inspires - In-line microphone for hands-free phone calling ",
     price: 16.99,
     status: "In Stock",
-    id: 67,
+    
     model: 'speaker'
   }),
   new Product({
@@ -576,7 +546,7 @@ var products = [
     description:   "EXCELLENT SOUND - DURABLE & NOT TANGLE - Built in Microphone - ADJUSTABLE & ESAY TO CARRY - PRPTECTION ",
     price: 11.99,
     status: "In Stock",
-    id: 68,
+    
     model: 'speaker'
   }),
   new Product({
@@ -585,7 +555,7 @@ var products = [
     description:   "Immerse yourself into the beat - Designed for maximum comfort - Durable and folding design - Easy in-line control with microphone -HAPPY CUSTOMERS ",
     price: 19.99,
     status: "In Stock",
-    id: 69,
+   
     model: 'speaker'
   }),
   new Product({
@@ -594,7 +564,7 @@ var products = [
     description:   "30 millimeter drivers for rich, full frequency response - Lightweight and comfortable on ear design - Swivel design for portability - 47 ¼ inch (1.2 meter) tangle free, Y type cord",
     price: 29.99,
     status: "In Stock",
-    id: 70,
+    
     model: 'speaker'
   }),
   new Product({
@@ -603,7 +573,6 @@ var products = [
     description:   "Collapsible feature - Hands-free talking and volume control - Adjustable hinge - Noise isolation - Widely compatible",
     price: 19.99,
     status: "In Stock",
-    id: 71,
     model: 'speaker'
   }),
   

@@ -1,12 +1,12 @@
+
 <div class="container">
-    
     {{#each products}}
     <div class="row">
       {{#each this}}
         <div class="col-md-3 col-sm-6">
             <div class="product-grid">
                 <div class="product-image">
-                    <a href="/{{this.id}}">
+                    <a href="/detail/{{this.id}}">
                         <img class="pic-1" src="{{this.imagePath}}">
                         <img class="pic-2" src="{{this.imagePath}}">
                     </a>
@@ -14,6 +14,7 @@
                       <li><a href="/add-to-cart/{{this._id}}" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
                     </ul>
                     <span class="product-new-label">{{this.model}}</span>
+                    <span class="product-discount-label">{{this.status}}</span>
                 </div>
                 <ul class="rating">
                     <li class="fa fa-star"></li>
@@ -23,7 +24,7 @@
                     <li class="fa fa-star disable"></li>
                 </ul>
                 <div class="product-content">
-                    <h3 class="title"><a href="/{{this.id}}">{{this.title}}</a></h3>
+                    <h3 class="title"><a href="/detail/{{this.id}}">{{this.title}}</a></h3>
                     <div class="price">{{ this.price }}$
                     </div>
                     <a class="add-to-cart" href="/add-to-cart/{{this._id}}">+ Add To Cart</a>
